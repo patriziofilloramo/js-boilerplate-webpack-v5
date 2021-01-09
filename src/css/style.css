@@ -1,0 +1,52 @@
+:root {
+  --main-color: rgb(240, 225, 255);
+  --header-color: rgb(56, 54, 80);
+  --footer-color:  rgb(56, 54, 80);
+  --header-height: 40px;
+  --footer-height: 40px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  background-color: var(--main-color);
+  height: 100%;
+  overflow: auto;
+}
+
+header {
+  background-color: rgb(31, 22, 51);
+  height: var(--header-height);
+}
+
+footer {
+  background-color: var(--footer-color);
+  height: var(--footer-height);
+}
+
+#crazy-div {
+  position: fixed;
+  color: var(--main-color);
+  top: 200px;
+  left: 200px;
+  padding: 8px;
+  background-color: rgb(250, 220, 128);
+  border-radius: 60%;
+  border: 3px solid var(--main-color);
+}
+
+/* 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+} */
